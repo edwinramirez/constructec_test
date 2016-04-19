@@ -7,11 +7,11 @@ Para la primera parte vas a encontrar adjunto un PDF en donde se describe el ret
 
 La idea es que en el repositorio de Github pongas una estructura de directorios de la siguiente manera.
 
-|
-| /programming_challenge
-| /articles_app
-|--- /ionic_app
-|--- /rails_api
+
+* programming_challenge
+* articles_app
+  * ionic_app
+  * rails_api
 
 En la carpeta 'programming_challenge' debe estar la prueba algoritmica que esta en el PDF.
 En la carpeta 'articles_app' deben estar el proyecto en Ionic (ionic_app) y el proyecto Rails API (rails_app)\
