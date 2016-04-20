@@ -1,0 +1,12 @@
+<ion-view view-title="Articles">
+  <ion-content>
+    <ion-list>
+		<ion-item ng-repeat="article in articles">
+      		{{article.title}}
+      		<a href="#/app/articles/{{article.id}}">View</a>
+      		<a href="#/app/articles/{{article.id}}">Edit</a>
+      		<a href="#/app/articles/delete/{{article.id}}">Delete</a>
+  		</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
